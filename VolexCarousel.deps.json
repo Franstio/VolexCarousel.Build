@@ -27,6 +27,7 @@
           "Serilog": "4.3.1",
           "Serilog.Extensions.Logging": "10.0.0",
           "Serilog.Sinks.SQLite": "7.0.0",
+          "System.Reactive": "6.1.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "9.0.17"
         },
         "runtime": {
@@ -1319,6 +1320,14 @@
           }
         }
       },
+      "System.Reactive/6.1.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.62682"
+          }
+        }
+      },
       "System.Text.Encodings.Web/10.0.9": {
         "runtime": {
           "runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll": {
@@ -1712,6 +1721,13 @@
       "sha512": "sha512-0nWQjM5IofaIGpvkifN+LLuYwBG6BHlpmphLhhOJepcW12G8qToGuNDRgBzeTVBZzp33wVsESSZ8hUOCfq+8QA==",
       "path": "system.io.ports/7.0.0",
       "hashPath": "system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "System.Reactive/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M5cCC1ZMkZr9jbSQGTHnVkb5TDN67qWCV7AP8TAHdGkvDlu0puT5NzemESNn9+HkYIDpWpocP68/i+/ame2/2w==",
+      "path": "system.reactive/6.1.0",
+      "hashPath": "system.reactive.6.1.0.nupkg.sha512"
     },
     "System.Text.Encodings.Web/10.0.9": {
       "type": "package",
